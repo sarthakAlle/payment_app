@@ -18,6 +18,7 @@ db.once('open', () => {
     console.log('Connected to MongoDB');
 });
 // Routes
+//payment api
 app.use('/api/payment', require('./routes/payment'));
 
 // Start the server
